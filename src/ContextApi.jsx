@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useReducer } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export const contextApi = React.createContext();
@@ -10,8 +10,6 @@ export const ContextApi = props =>{
     const [inputValue, setInputValue] = useState('');
     const [content, setContent] = useState('');
    
-    
-
     useEffect(() => {
         axios.get('http://hn.algolia.com/api/v1/search?query=').then((res) => {
           setArticle(res.data.hits);

@@ -12,7 +12,6 @@ function App() {
         <Router>
           <Main />
           <Switch>
-            {/* <Route path="/" exact component={Main}></Route> */}
             <Route path="/test1" exact component={Test1}></Route>
             <Route path="/test2" exact component={Test2}></Route>
           </Switch>

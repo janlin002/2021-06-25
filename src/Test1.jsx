@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import './style/index.css';
 import { contextApi } from './ContextApi';
 
@@ -21,7 +21,6 @@ function Test1() {
       if (item.title) {
         const check = item.title.toLowerCase().search(inputValue);
         if (check !== -1) {
-          console.log(item)
           setContent([item]);
         } else {
           return null;
