@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+If you cannot view the video, download vlc player.
+It will be able to play anything.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For both assignments regarding React:
 
-## Available Scripts
+1. Use customs hooks and/or context. It's important that
+you show you understand how to create custom hooks and
+understand context, how to create and use context and pass it 
+down your app.
 
-In the project directory, you can run:
+2. Use functional components
+3. Seperate components and hooks into individual files
+4. Check the console to make sure you fix all errors.
+You shouldn't have any errors.
 
-### `yarn start`
+A note on the search function: You can make the search as 
+you type or wait until you finish typing and click 'search'. 
+In real production apps, the search should happen as you 
+type if all the data has been loaded to the local cache. If it 
+hasn't been loaded to the local cache, then only send the 
+search to the server after the user has finished typing. Since 
+this is a quick and simple test, either is okay.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+After you have completed the assignments, please push it
+to your own repos on GitHub and let me know the links. I'll
+go read your code.
 
-### `yarn test`
+Thank you.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+************************************************************
+ASSIGNMET #1 
+************************************************************
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+REACT AND REST API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You will use React to build a sample page to retrieve data
+from https://hn.algolia.com/api using the search api.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+api: http://hn.algolia.com/api/v1/search?query=
 
-### `yarn eject`
+On your page, please make these features:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Search box to search Hacker News
+2. Display the results in a table (don't use any packages).
+3. Delete each result from the table
+4. Load more (only load 10 results each time). Load More
+button should only be shown when there are results.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To see what the finish product looks like, see the video.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+************************************************************
+ASSIGNMET #2
+************************************************************
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+REACT AND GRAPHQL API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You will use the countries api at https://countries.trevorblades.com/
+and Apollo Client and React Router.
 
-### Code Splitting
+On your page, please make these features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. A table on the top with all the continents. Each continent has a
+link. When users click on the continent link, it displays another
+table below.
 
-### Analyzing the Bundle Size
+2. The second table lists all the countries on that continent, with the
+following information: Code, Name, Native, Capital, Currency, Language
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To see what the finish product looks like, see the video.
